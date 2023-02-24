@@ -1,0 +1,49 @@
+*{
+    font-family: 'Satoshi', sans-serif;
+    /* border:1px solid black; */
+    margin: 0;                                                
+}
+.Loginfag{
+    margin: auto; 
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+
+.fagitar{
+margin-top: 50%;
+font-size: 82px;
+color: #000000;
+}
+.fagitar ~ hr{
+    width: 78%;
+    margin:0 auto;
+}
+ .button{
+    border-radius: 50px;
+    width: 304px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 26px;
+    color: #FFFFFF;
+    border-width: 1px;
+}
+.signin{
+    margin-top: 25px;
+    background-color: #F45B03;
+    color: #FFFFFF;
+    border-width: 0px;
+}
+.signup{
+    margin: 20px auto;
+    background-color: #FFFFFF;
+    color:  #000000;
+
+}
+.skip{
+    margin-top: 20px;
+    background-color: #D9D9D9;
+    color:  #000000;
+    font-weight: 400;
+    border-width: 0px;
+}
