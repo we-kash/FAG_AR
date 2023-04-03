@@ -17,10 +17,15 @@ export default function Login() {
     <div>
         <div class="SmartPhone">
             <h3>Create Account</h3>
-            <p>Please enter the email from which you want to continue</p>
+            <p class="firstp">Please enter the email from which you want to continue</p>
             <input type="mail" id="email"/>
-            <p>already have an account?</p>
+            <p class="secondp">already have an account?</p>
             <h4>or</h4>
+            <div class="imgLinks">
+            <a href="https://accounts.google.com"><img src="fagitar/src/components/images/images.jpeg" alt="fb"></img></a>
+            <a href="facebook.com"><img src="" alt="fb"></img></a>
+            <a href="facebook.com"><img src="" alt="fb"></img></a>
+            </div>
             <button class="Verify-button"type="button">Verify Now</button>
         </div>
     </div>

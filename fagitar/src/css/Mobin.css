@@ -22,8 +22,9 @@
     margin: 0;
     border: 1px solid #D9D9D9;
 }
+
 .SmartPhone{
-    margin: 0;
+    margin: 2;
     position: absolute;
     z-index: 0;
     top: 2.5rem;
@@ -31,9 +32,75 @@
     right: 12%;
     width:18.75rem;
     height: 35.875rem;
-    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 10px;
     border: 1px solid #bfb8b8; 
     border-radius: 3.125rem;
     box-shadow: 0px 0px 27px rgba(0, 0, 0, 0.25);
     text-align: center;
+}
+.SmartPhone .firstp {
+      
+    position: relative;
+    margin-top: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 0.81rem;
+    line-height: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+    text-align: center;
+    
+}
+.SmartPhone #email {
+    position: relative;
+    margin-top: 15px;
+    margin-left: 13px;
+    background-color: #D9D9D9;
+    border-width: 0px;
+    border-radius: 50px;
+    width: 90%;
+    height: 30px;
+}
+.SmartPhone .secondp {
+     padding-left: 10px; 
+    position: relative;
+   
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: .57rem;
+    line-height: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+    text-align: center;
+    letter-spacing: .028rem;
+}
+.SmartPhone h4{
+    margin-top: 4px;
+    font-size: .8rem;
+}
+.imgLinks{
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+}
+.Verify-button{
+    position:Absolute;
+    /* margin-top: 15px; */
+    /* margin-left: 13px; */
+    
+    margin-bottom: 50px;
+    margin-left: 0.625rem;
+    border-color: #F45B03;
+    color: #F45B03;
+    background-color: #FFFFFF;
+    border-width: 1px;
+    border-radius: 50px;
+    width: 80%;
+    height: 30px;
+     bottom: 0;
 }
