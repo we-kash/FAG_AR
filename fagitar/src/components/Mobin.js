@@ -1,4 +1,5 @@
 import React from "react"
+import google from './images/Goole.png';
 
 export default function Login() {
     return (
@@ -22,9 +23,9 @@ export default function Login() {
             <p class="secondp">already have an account?</p>
             <h4>or</h4>
             <div class="imgLinks">
-            <a href="https://accounts.google.com"><img src="fagitar/src/components/images/images.jpeg" alt="fb"></img></a>
-            <a href="facebook.com"><img src="" alt="fb"></img></a>
-            <a href="facebook.com"><img src="" alt="fb"></img></a>
+            <a href="fb.com"><img src={google} alt="fb"/></a>
+            <a href="fb.com"><img src={google} alt="fb"/></a>
+            <a href="fb.com"><img src={google} alt="fb"/></a>
             </div>
             <button class="Verify-button"type="button">Verify Now</button>
         </div>

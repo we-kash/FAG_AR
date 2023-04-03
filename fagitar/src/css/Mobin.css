@@ -88,6 +88,11 @@
     justify-content: center;
     column-gap: 25px;
 }
+.imgLinks img{
+    width: 45px;
+    border: 1px solid black ;
+    border-radius:50px;
+}
 .Verify-button{
     position:Absolute;
     /* margin-top: 15px; */
